@@ -1,0 +1,18 @@
+Language: Cpp
+UseTab: Never
+ColumnLimit: 80
+IndentWidth: 2
+AlignConsecutiveMacros: None
+AlignArrayOfStructures: Right
+AlignOperands: AlignAfterOperator
+AlignTrailingComments: true
+AllowShortBlocksOnASingleLine: Empty
+AllowAllParametersOfDeclarationOnNextLine: false
+BinPackArguments: false
+BinPackParameters: false
+BitFieldColonSpacing: After
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterFunction: true
+BreakStringLiterals: true
+IndentPPDirectives: BeforeHash
