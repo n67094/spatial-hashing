@@ -82,7 +82,6 @@ void draw(Tigr *screen)
     TPixel final_color = objects[i].color;
 
     if (ListContains(nearby_collision, &objects[i].id, CollisionCompare)) {
-      printf("obj id ----- %d\n", objects[i].id);
       final_color = tigrRGB(0, 255, 0);
     }
 

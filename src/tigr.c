@@ -5434,8 +5434,6 @@ void tigrError(Tigr *bmp, const char *message, ...)
   tmp[sizeof(tmp) - 1] = 0;
   va_end(args);
 
-  printf("tigr fatal error: %s\n", tmp);
-
   exit(1);
 }
 
